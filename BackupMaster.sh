@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# testing git push feature and ssh keys
 dn=`date +%u`
 hst=$(hostname | awk '{print $1}')
 dt=`date +%m-%d-%Y`
