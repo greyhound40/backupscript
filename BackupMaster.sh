@@ -1,5 +1,7 @@
 #!/bin/sh
-# testing git push feature and ssh keys
+# things to add - per jrods sys-snap - panel detection
+# remote mounts - if not then save backup locally to another directory
+
 dn=`date +%u`
 hst=$(hostname | awk '{print $1}')
 dt=`date +%m-%d-%Y`
